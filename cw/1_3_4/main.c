@@ -14,7 +14,7 @@ int main()
     }
     else
     {
-        print("%d", -a)
+        printf("%d", -a)
     }
     if(b=>0)
     {
@@ -22,6 +22,6 @@ int main()
     }
     else
     {
-        print("%d", -b)
+        printf("%d", -b)
     }
 }
