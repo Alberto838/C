@@ -6,22 +6,21 @@
 
 int main()
 {
-    int a,b;
-    scanf("%d", %a, %b);
-    if(a=>0)
+    int a, b, abw, bbw;
+    scanf("%i\n%i",&a,&b);
+    abw=a;
+    bbw=b;
+    if(a<0)
     {
-        printf("%d", a)
+        abw=-a;
     }
-    else
+    if(b<0)
     {
-        printf("%d", -a)
+        bbw=-b;
     }
-    if(b=>0)
+    if(abw>=bbw)
     {
-        printf("%d", b)
+        printf("%d", abw);
     }
-    else
-    {
-        printf("%d", -b)
-    }
+    else printf("%d", bbw);
 }
